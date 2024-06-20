@@ -76,7 +76,16 @@
 2. Deploy using Render.
     <br>
     <a href='https://render.com/deploy' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
-
+#### vars for clever cloud
+```
+SESSION_ID
+```
+```
+AUTO_STATUS_SEEN
+```
+```
+AUTO_REACT
+```
 
 ## Reminder
 
