@@ -169,7 +169,7 @@ const song = async (m, Matrix) => {
           const videoStream = ytdl(videoUrl, { filter: 'audioandvideo', quality: 'highest' });
           const finalVideoBuffer = await streamToBuffer(videoStream);
 
-          await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n\n> Powered by Ethix-MD` }, { quoted: m });
+          await Matrix.sendMessage(m.from, { video: finalVideoBuffer, mimetype: 'video/mp4', caption: `Title: ${title}\nAuther: ${author}\nDuration: ${duration}\n\n> Powered by DEVIL-MD` }, { quoted: m });
         }
       } catch (error) {
         console.error("Error fetching video details:", error);
