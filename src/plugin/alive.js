@@ -97,7 +97,7 @@ const serverStatusCommand = async (m, Matrix) => {
       clearInterval(loadingInterval);
 
       // Create the status message
-      const statusMessage = `_WASI-EDITX Status_\n\n📅 Uptime: ${uptime}\n🖥 Platform: ${platform}\n\n> © Powered by WASI____SER`;
+      const statusMessage = `_RUSH-EDITX Status_\n\n📅 Uptime: ${uptime}\n🖥 Platform: ${platform}\n\n> ® Powered by RUSH____SER`;
 
       await typeWriterEffect(m, Matrix, key, statusMessage);
     } catch (error) {
